@@ -2,7 +2,7 @@ var express = require('express');
 var inventory = express.Router();
 
 inventory.books = [
-    { id: '1', name: 'Gone For Good', published: 'Jan' },
+    { id: '1', name: 'Milk', price: 3.90 },
     { id: '2', name: 'Scary Story', published: 'Jan' },
     { id: '3', name: 'Bible', published: 'Jan' },
     { id: '4', name: 'The Joiners', published: 'Feb' },
